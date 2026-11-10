@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student data science projects and an interactive D3 visualization.">
+  <title>Projects | DataLab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-icon">◈</span> Data<span>Lab</span></a>
+    <nav aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" aria-current="page" href="projects.html">Projects &amp; Visualizations</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="page-top container"><div><p class="eyebrow">PROJECTS / EXPLORATION</p><h1>Learning by <span>building.</span></h1><p class="lead">I'm exploring programming, real-world datasets and ways to communicate results through interactive visualizations.</p><a class="button primary" href="#projects">View projects ↗</a></div><img src="2nd image.png" alt="Dark blue network visualization overlaid with programming code" width="520" height="470"></section>
+    <section class="section muted" id="projects"><div class="container"><p class="eyebrow">01 / MY PROJECTS</p><h2>What I'm working on</h2><div class="cards">
+      <article class="card"><span class="card-symbol">▥</span><h3>Transaction data exploration</h3><p>I have practiced using Python, Pandas and Matplotlib to examine transaction amounts, spending categories and customer activity. These exercises help me learn how to spot patterns and explain them visually.</p></article>
+      <article class="card"><span class="card-symbol">{ }</span><h3>Data cleaning and APIs</h3><p>I am learning how to process data reliably, including checking required columns, handling missing values and removing duplicate rows. I have also practiced configuring a data-processing API.</p></article>
+      <article class="card"><span class="card-symbol">↗</span><h3>Interactive visualization</h3><p>As part of studying data visualization, I am practicing how to present information with readable axes, useful labels and interactive charts. This page includes a sample D3.js bar chart.</p></article>
+    </div></div></section>
+    <section class="section container"><p class="eyebrow">02 / D3.JS VISUALIZATION</p><h2>Exploring data science skills</h2><p class="section-intro">This interactive bar chart illustrates sample weekly hours across five learning topics. The values are fictional examples used to demonstrate D3.js, not a record of my actual study time.</p>
+      <div class="chart-card"><div class="chart-heading"><div><h3>Example weekly learning hours</h3><p>Hover over or keyboard-focus a bar to read its value.</p></div><span class="sample-tag">SAMPLE DATA</span></div>
+      <div id="study-chart" role="group" aria-label="Interactive example learning-hours bar chart"></div>
+      <p id="chart-fallback" class="chart-note" aria-live="polite">Loading chart… D3.js requires an internet connection.</p>
+      </div>
+    </section>
+    <section class="section muted"><div class="container two-col"><div><p class="eyebrow">03 / MY APPROACH</p><h2>From a question to a clear chart.</h2></div><div class="prose">
+      <p>Data science starts with asking a useful question. In a transaction dataset, for instance, I might ask which categories appear most often or whether spending amounts vary across customers. The question helps determine what information is needed and which visualizations could be useful. I am learning not to choose a chart simply because it looks interesting; I want the chart to answer something that matters.</p>
+      <p>After deciding what to investigate, I check the dataset. That can include looking for empty entries, duplicate records, inconsistent labels and columns stored in unexpected formats. Data cleaning helps make later comparisons more reliable. Then I use exploratory data analysis to summarize values and look for patterns, differences or unexpected observations. I have been practicing this process in Python and experimenting with Matplotlib charts to communicate what I find.</p>
+      <p>The next step is presentation. A useful chart should have clear labels and enough explanation that someone unfamiliar with the dataset can understand it. I also think it is important to explain limitations rather than make a stronger claim than the data supports. The D3 example above is deliberately labeled as sample data because it demonstrates a visualization technique, not a research result. As I continue learning, I want to build projects that combine careful analysis with simple explanations that other people can follow.</p>
+      <h3>My analysis checklist</h3><ul><li>Start with a clear question.</li><li>Examine and clean the dataset.</li><li>Explore values and patterns.</li><li>Choose an appropriate chart.</li><li>Explain findings and limitations.</li></ul>
+    </div></div></section>
+    <section class="contact-section"><div class="container contact-inner"><div><p class="eyebrow">04 / CONNECT</p><h2>Keep exploring.</h2><p>See my work on <a href="https://github.com/Naa456" target="_blank" rel="noopener noreferrer">GitHub</a>.</p></div><a class="button light" href="index.html">Back to home ↗</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 DataLab · Student portfolio</span><span>Built with HTML, CSS &amp; D3.js</span></div></footer>
+</body>
+</html>
