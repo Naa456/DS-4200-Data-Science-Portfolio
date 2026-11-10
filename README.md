@@ -1,19 +1,32 @@
-# DataLab — DS4200 Homework 7 Portfolio
 
-Two-page student portfolio with custom HTML/CSS, two student-selected images and an interactive D3.js bar chart using clearly labeled sample data.
+# Data Science Portfolio — DS4200
 
-## Publish to GitHub Pages
+Hi! I'm Naa Agowah Codjoe, a student at Northeastern University interested in data science, programming, and data visualization.
 
-1. Open https://github.com/Naa456/data-science-portfolio
-2. Use **Add file → Upload files** to upload `index.html`, `projects.html`, `style.css`, `script.js`, `first image.png` and `2nd image.png` into the repository root. If existing filenames appear, choose to replace them by committing the uploaded versions. `index.html` must be in the root, not an extra folder.
-3. Under **Settings → Pages**, set source to **Deploy from a branch**, branch to **main**, folder to **/(root)** and save.
-4. Check the expected URL: https://naa456.github.io/data-science-portfolio/
-5. Test both pages, image loading, navigation and the D3 chart. D3 loads from a public CDN, so the chart needs internet access.
+This portfolio was created for DS4200 Homework 7.
 
-## Image notice
+## About My Website
 
-`first image.png` and `2nd image.png` were supplied as screenshots of online images chosen by the student. Verify reuse rights with the original creator before public posting. Pinterest alone is not a license. Replace images if permission is unavailable. The second screenshot may contain image-viewer interface overlays.
+My website has two pages:
 
-## Assignment notes
+- **Home:** An introduction to my interests in data science, programming, and technology.
+- **Projects & Visualizations:** A collection of my current learning projects and an interactive D3.js visualization using sample data.
 
-The group peer review is separate from the public website. The `.ipynb` notebook and exported `.html` are for course submission, not repository upload. The sample learning-hours chart is illustrative rather than a factual dataset.
+## Skills and Technologies
+
+- Python and Pandas
+- Matplotlib
+- HTML and CSS
+- JavaScript and D3.js
+- Data cleaning and exploratory data analysis
+
+## Website
+
+Visit my portfolio:
+
+https://naa456.github.io/DS-4200-Data-Science-Portfolio/
+
+## Course
+
+DS4200 — Homework 7
+Northeastern University
